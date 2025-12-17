@@ -15,6 +15,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
         ssl: {
           rejectUnauthorized: false,
         },
+        logging: true,
       }),
     }),
   ],
